@@ -68,7 +68,7 @@ class ImageClassifierHelper(
     }
 
     // Fungsi untuk melakukan pemrosesan klasifikasi
-    fun classifyImageImage(image: ImageProxy) {
+    fun classifyImage(image: ImageProxy) {
         if (imageClassifier == null) {
             setupImageClassifier()
         }
