@@ -64,11 +64,11 @@ class CameraActivity : AppCompatActivity() {
                                         "${it.label} " + NumberFormat.getPercentInstance()
                                             .format(it.score).trim()
                                     }
-                                // binding.tvResult.text = displayResult
-                                // binding.tvInferenceTime.text = "$inferenceTime ms"
+                                 binding.tvResult.text = displayResult
+                                 binding.tvInferenceTime.text = "$inferenceTime ms"
                             } else {
-                                // binding.tvResult.text = ""
-                                // binding.tvInferenceTime.text = ""
+                                 binding.tvResult.text = ""
+                                 binding.tvInferenceTime.text = ""
                             }
                         }
                     }
