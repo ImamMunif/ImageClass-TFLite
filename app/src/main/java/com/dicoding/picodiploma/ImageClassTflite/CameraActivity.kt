@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.mycamera
+package com.dicoding.picodiploma.ImageClassTflite
 
 import android.os.Build
 import android.os.Bundle
@@ -14,7 +14,7 @@ import androidx.camera.core.resolutionselector.AspectRatioStrategy
 import androidx.camera.core.resolutionselector.ResolutionSelector
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
-import com.dicoding.picodiploma.mycamera.databinding.ActivityCameraBinding
+import com.dicoding.picodiploma.ImageClassTflite.databinding.ActivityCameraBinding
 import org.tensorflow.lite.task.vision.classifier.Classifications
 import java.text.NumberFormat
 import java.util.concurrent.Executors
